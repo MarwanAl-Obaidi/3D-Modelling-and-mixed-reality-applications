@@ -1,5 +1,7 @@
 # 3D-Modelling-and-mixed-reality-applications
 
+A course I did that teaches how to 3D model and create mixed reality applications.
+
 By the end of the course the student:
 
 - knows how to use 3D to make models of objects and spaces with different programs.
