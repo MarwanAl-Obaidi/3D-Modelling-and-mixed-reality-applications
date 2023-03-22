@@ -8,11 +8,11 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/barrel', (req, res) => {
+app.get('/barrel.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'barrel.html'));
 });
 
-app.get('/bird', (req, res) => {
+app.get('/bird.html', (req, res) => {
   res.sendFile(path.join(__dirname, 'bird.html'));
 });
 
