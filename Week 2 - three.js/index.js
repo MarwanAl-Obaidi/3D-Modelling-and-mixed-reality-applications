@@ -8,6 +8,14 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
+app.get('/barrel', (req, res) => {
+  res.sendFile(path.join(__dirname, 'barrel.html'));
+});
+
+app.get('/bird', (req, res) => {
+  res.sendFile(path.join(__dirname, 'bird.html'));
+});
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}.`);
 });
